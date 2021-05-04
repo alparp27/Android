@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProgressBar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/stats_progressbar"
+    style="?android:attr/progressBarStyleHorizontal"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.5"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:layout_width="@dimen/piechart_size"
+    android:layout_height="@dimen/piechart_size"
+    android:indeterminate="false"
+    android:max="100"
+    android:progress="25"
+    android:progressDrawable="@drawable/stats_progress" />
